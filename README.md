@@ -1,16 +1,15 @@
-## Hi there 👋
+Hello everyone 🎵🎵🎵
 
-<!--
-**Ravzing/Ravzing** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I will be attempting to create a card game called War ♠♣♥♦.
 
-Here are some ideas to get you started:
+The game will require a deck containing 52 cards, divided into 4 suits [♠, ♣, ♥, ♦]. Each suit will have 13 cards: [2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A].
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+The deck should be shuffled randomly.
+
+After shuffling, the deck is split equally among the players.
+
+Game Rules:
+
+A lower-ranked card can only be played on a card of the same suit.
+A higher-ranked card can overtake a lower-ranked card of the same suit.
+If a player cannot play the same suit or overtake the current card, they must take all the played cards into their hand.
